@@ -1,7 +1,7 @@
 {
   "name": "@wu-xj/vue-socket.io",
   "author": "wuxj <780185916@qq.com>",
-  "version": "3.0.12",
+  "version": "3.0.15",
   "description": "socket.io implementation for Vue.js and Vuex",
   "main": "dist/vue-socketio.js",
   "scripts": {
@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/wuxj/Vue-Socket.io",
   "dependencies": {
+    "@purtuga/esm-webpack-plugin": "^1.5.0",
     "socket.io-client": "^4.4.0"
   },
   "devDependencies": {
